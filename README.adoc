@@ -1,0 +1,20 @@
+= Maven Repository - Snapshots
+
+Maven repository for snapshots of my projects.
+
+== Usage
+
+NOTICE: Dependencies will be updated and cleaned regularly. So don't include them in any production release.
+
+=== Gradle
+
+Please add the following to your root `build.gradle` or `build.gradle.kts`
+
+[source, gradle]
+----
+// build.gradle.kts
+repositories {
+    // add
+    maven("https://raw.github.com/wmontwe/maven-snapshots/main/repository")
+}
+----
